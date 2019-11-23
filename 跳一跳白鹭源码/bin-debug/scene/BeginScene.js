@@ -38,3 +38,4 @@ var BeginScene = (function (_super) {
     return BeginScene;
 }(eui.Component));
 __reflect(BeginScene.prototype, "BeginScene", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=BeginScene.js.map
