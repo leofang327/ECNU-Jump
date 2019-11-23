@@ -28,7 +28,7 @@ class GameScene extends eui.Component implements eui.UIComponent {
 	public tanAngle: number = 0.556047197640118;
 
 	// 跳的距离
-	public jumpDistnce: number = 0;
+	public jumpDistance: number = 0;
 	// 判断是否是按下状态
 	private isReadyJump = false;
 	// 落脚点
