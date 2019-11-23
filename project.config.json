@@ -9,9 +9,11 @@
 	},
 	"compileType": "game",
 	"libVersion": "game",
-	"appid": "touristappid",
-	"projectname": "weapp-jump",
+	"appid": "wxb6f52b8dde90438b",
+	"projectname": "ECNU%20Jump",
 	"isGameTourist": true,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
