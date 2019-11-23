@@ -266,3 +266,4 @@ var GameScene = (function (_super) {
     return GameScene;
 }(eui.Component));
 __reflect(GameScene.prototype, "GameScene", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=GameScene.js.map
