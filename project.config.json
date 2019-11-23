@@ -10,7 +10,7 @@
 	"compileType": "game",
 	"libVersion": "game",
 	"appid": "wxb6f52b8dde90438b",
-	"projectname": "ECNU%20Jump",
+	"projectname": "ECNU Jump",
 	"isGameTourist": true,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -28,8 +28,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,   // 123
-			"list": []   // 21312
+			"current": -1,
+			"list": []
 		}
 	}
 }
