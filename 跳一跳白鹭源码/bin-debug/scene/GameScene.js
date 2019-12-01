@@ -46,7 +46,10 @@ var GameScene = (function (_super) {
         this.reset();
     };
     GameScene.prototype.init = function () {
-        this.blockSourceNames = ["block1_png", "block2_png", "block3_png"];
+        this.blockSourceNames = ["中山北路门口_png", "丽娃食堂_png", "全家_png", "图书馆_png", "地理馆_png",
+            "数学馆_png", "文史楼_png", "文附楼_png", "河东食堂_png", "河西食堂_png", "环球港_png", "第五宿舍_png", "篮球场_png", "计算机楼_png", "足球场_png", "金沙江路门口_png"];
+        this.blockWidth = 358;
+        this.blockHeight = 240;
         // 初始化音频
         this.pushVoice = RES.getRes('push_mp3');
         this.jumpVoice = RES.getRes('jump_mp3');
@@ -169,6 +172,8 @@ var GameScene = (function (_super) {
         // 使用随机背景图
         var n = Math.floor(Math.random() * this.blockSourceNames.length);
         blockNode.source = this.blockSourceNames[n];
+        blockNode.width = this.blockWidth;
+        blockNode.height = this.blockHeight;
         this.blockPanel.addChild(blockNode);
         // 设置方块的锚点
         blockNode.anchorOffsetX = 222;
@@ -236,7 +241,7 @@ var GameScene = (function (_super) {
                 }, 1000);
             }
         }
-        console.log(this.blockArr);
+        // console.log(this.blockArr);
     };
     // 重新一局
     GameScene.prototype.restartHandler = function () {
@@ -266,3 +271,4 @@ var GameScene = (function (_super) {
     return GameScene;
 }(eui.Component));
 __reflect(GameScene.prototype, "GameScene", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=GameScene.js.map

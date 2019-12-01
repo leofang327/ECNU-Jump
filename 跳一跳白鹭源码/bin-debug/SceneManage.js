@@ -43,3 +43,4 @@ var SceneMange = (function (_super) {
     return SceneMange;
 }(egret.Sprite));
 __reflect(SceneMange.prototype, "SceneMange");
+//# sourceMappingURL=SceneManage.js.map

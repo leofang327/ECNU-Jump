@@ -45,6 +45,9 @@ class GameScene extends eui.Component implements eui.UIComponent {
 	public overScoreLabel: eui.Label;
 	public restart: eui.Button;
 
+	private blockWidth;
+	private blockHeight;
+
 
 
 	public constructor() {
@@ -60,7 +63,11 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		this.reset();
 	}
 	private init() {
-		this.blockSourceNames = ["block1_png", "block2_png", "block3_png"];
+		this.blockSourceNames = ["中山北路门口_png", "丽娃食堂_png", "全家_png","图书馆_png","地理馆_png",
+		"数学馆_png","文史楼_png","文附楼_png","河东食堂_png","河西食堂_png","环球港_png","第五宿舍_png","篮球场_png","计算机楼_png","足球场_png","金沙江路门口_png"];
+		this.blockWidth = 358;
+		this.blockHeight = 240;
+		
 		// 初始化音频
 		this.pushVoice = RES.getRes('push_mp3');
 		this.jumpVoice = RES.getRes('jump_mp3');
@@ -148,6 +155,7 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		blockNode.x = 200;
 		blockNode.y = this.height / 2 + blockNode.height;
 		this.currentBlock = blockNode;
+
 		// 摆正小人的位置
 		this.player.y = this.currentBlock.y;
 		this.player.x = this.currentBlock.x;
@@ -157,11 +165,13 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		this.blockPanel.addChild(this.scoreLabel);
 		// 添加下一个方块
 		this.addBlock();
+		
 	}
 	// 添加一个方块
 	private addBlock() {
 		// 随机一个方块
 		let blockNode = this.createBlock();
+
 		// 设置位置
 		let distance = this.minDistance + Math.random() * (this.maxDistance - this.minDistance);
 		if (this.direction > 0) {
@@ -173,6 +183,8 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		}
 		this.currentBlock = blockNode;
 	}
+
+
 	// 工厂方法,创建一个方块
 	private createBlock(): eui.Image {
 		var blockNode = null;
@@ -186,6 +198,8 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		// 使用随机背景图
 		let n = Math.floor(Math.random() * this.blockSourceNames.length);
 		blockNode.source = this.blockSourceNames[n];
+		blockNode.width = this.blockWidth;
+		blockNode.height = this.blockHeight;
 		this.blockPanel.addChild(blockNode);
 		// 设置方块的锚点
 		blockNode.anchorOffsetX = 222;
@@ -252,8 +266,7 @@ private update(x, y) {
 				}, 1000)
 			}
 		}
-		console.log(this.blockArr);
-
+		// console.log(this.blockArr);
 	}
 	// 重新一局
 	private restartHandler() {

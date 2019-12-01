@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,back_btn_png,block1_png,block2_png,block3_png,finger_png,jump_mp3,piece_png,push_mp3,relive_png,restart_btn_png,setting_bg_jpg,setting_btn_png,setting_off_png,setting_on_png,start_btn_png,streak_png,button_down2_png,button_up2_png,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,selected2_png,border2_png,header2_png,thumb_pb2_png,track_pb2_png,radiobutton_select_disabled2_png,radiobutton_select_down2_png,radiobutton_select_up2_png,radiobutton_unselect2_png,roundthumb2_png,track_sb2_png,thumb2_png,track2_png,tracklight2_png,handle2_png,off2_png,on2_png,button_down3_png,button_up3_png,checkbox_select_disabled3_png,checkbox_select_down3_png,checkbox_unselect3_png,checkbox_select_up3_png,selected3_png,border3_png,header3_png,thumb_pb3_png,track_pb3_png,radiobutton_select_disabled3_png,radiobutton_select_down3_png,radiobutton_select_up3_png,radiobutton_unselect3_png,roundthumb3_png,track_sb3_png,thumb3_png,track3_png,tracklight3_png,handle3_png,off3_png,on3_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,back_btn_png,block1_png,block2_png,block3_png,finger_png,jump_mp3,piece_png,push_mp3,relive_png,restart_btn_png,setting_bg_jpg,setting_btn_png,setting_off_png,setting_on_png,start_btn_png,streak_png,button_down2_png,button_up2_png,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,selected2_png,border2_png,header2_png,thumb_pb2_png,track_pb2_png,radiobutton_select_disabled2_png,radiobutton_select_down2_png,radiobutton_select_up2_png,radiobutton_unselect2_png,roundthumb2_png,track_sb2_png,thumb2_png,track2_png,tracklight2_png,handle2_png,off2_png,on2_png,button_down3_png,button_up3_png,checkbox_select_disabled3_png,checkbox_select_down3_png,checkbox_unselect3_png,checkbox_select_up3_png,selected3_png,border3_png,header3_png,thumb_pb3_png,track_pb3_png,radiobutton_select_disabled3_png,radiobutton_select_down3_png,radiobutton_select_up3_png,radiobutton_unselect3_png,roundthumb3_png,track_sb3_png,thumb3_png,track3_png,tracklight3_png,handle3_png,off3_png,on3_png,中山北路门口_png,丽娃食堂_png,全家_png,图书馆_png,地理馆_png,数学馆_png,文史楼_png,文附楼_png,河东食堂_png,河西食堂_png,环球港_png,第五宿舍_png,篮球场_png,计算机楼_png,足球场_png,金沙江路门口_png,足球场2_png,地理馆2_png,第五宿舍2_png,河东食堂2_png,河西食堂2_png,环球港2_png,计算机楼2_png,金沙江路门口2_png,篮球场2_png,丽娃食堂2_png,全家2_png,数学馆2_png,图书馆2_png,文附楼2_png,文史楼2_png,中山北路门口2_png",
 			"name": "preload"
 		}
 	],
@@ -445,6 +445,166 @@
 			"name": "on3_png",
 			"type": "image",
 			"url": "assets/ToggleSwitch/on.png"
+		},
+		{
+			"name": "中山北路门口_png",
+			"type": "image",
+			"url": "assets/block/中山北路门口.png"
+		},
+		{
+			"name": "丽娃食堂_png",
+			"type": "image",
+			"url": "assets/block/丽娃食堂.png"
+		},
+		{
+			"name": "全家_png",
+			"type": "image",
+			"url": "assets/block/全家.png"
+		},
+		{
+			"name": "图书馆_png",
+			"type": "image",
+			"url": "assets/block/图书馆.png"
+		},
+		{
+			"name": "地理馆_png",
+			"type": "image",
+			"url": "assets/block/地理馆.png"
+		},
+		{
+			"name": "数学馆_png",
+			"type": "image",
+			"url": "assets/block/数学馆.png"
+		},
+		{
+			"name": "文史楼_png",
+			"type": "image",
+			"url": "assets/block/文史楼.png"
+		},
+		{
+			"name": "文附楼_png",
+			"type": "image",
+			"url": "assets/block/文附楼.png"
+		},
+		{
+			"name": "河东食堂_png",
+			"type": "image",
+			"url": "assets/block/河东食堂.png"
+		},
+		{
+			"name": "河西食堂_png",
+			"type": "image",
+			"url": "assets/block/河西食堂.png"
+		},
+		{
+			"name": "环球港_png",
+			"type": "image",
+			"url": "assets/block/环球港.png"
+		},
+		{
+			"name": "第五宿舍_png",
+			"type": "image",
+			"url": "assets/block/第五宿舍.png"
+		},
+		{
+			"name": "篮球场_png",
+			"type": "image",
+			"url": "assets/block/篮球场.png"
+		},
+		{
+			"name": "计算机楼_png",
+			"type": "image",
+			"url": "assets/block/计算机楼.png"
+		},
+		{
+			"name": "足球场_png",
+			"type": "image",
+			"url": "assets/block/足球场.png"
+		},
+		{
+			"name": "金沙江路门口_png",
+			"type": "image",
+			"url": "assets/block/金沙江路门口.png"
+		},
+		{
+			"name": "足球场2_png",
+			"type": "image",
+			"url": "assets/足球场.png"
+		},
+		{
+			"name": "地理馆2_png",
+			"type": "image",
+			"url": "assets/地理馆.png"
+		},
+		{
+			"name": "第五宿舍2_png",
+			"type": "image",
+			"url": "assets/第五宿舍.png"
+		},
+		{
+			"name": "河东食堂2_png",
+			"type": "image",
+			"url": "assets/河东食堂.png"
+		},
+		{
+			"name": "河西食堂2_png",
+			"type": "image",
+			"url": "assets/河西食堂.png"
+		},
+		{
+			"name": "环球港2_png",
+			"type": "image",
+			"url": "assets/环球港.png"
+		},
+		{
+			"name": "计算机楼2_png",
+			"type": "image",
+			"url": "assets/计算机楼.png"
+		},
+		{
+			"name": "金沙江路门口2_png",
+			"type": "image",
+			"url": "assets/金沙江路门口.png"
+		},
+		{
+			"name": "篮球场2_png",
+			"type": "image",
+			"url": "assets/篮球场.png"
+		},
+		{
+			"name": "丽娃食堂2_png",
+			"type": "image",
+			"url": "assets/丽娃食堂.png"
+		},
+		{
+			"name": "全家2_png",
+			"type": "image",
+			"url": "assets/全家.png"
+		},
+		{
+			"name": "数学馆2_png",
+			"type": "image",
+			"url": "assets/数学馆.png"
+		},
+		{
+			"name": "图书馆2_png",
+			"type": "image",
+			"url": "assets/图书馆.png"
+		},
+		{
+			"name": "文附楼2_png",
+			"type": "image",
+			"url": "assets/文附楼.png"
+		},
+		{
+			"name": "文史楼2_png",
+			"type": "image",
+			"url": "assets/文史楼.png"
+		},
+		{
+			"name": "中山北路门口2_png",
+			"type": "image",
+			"url": "assets/中山北路门口.png"
 		}
 	]
 }
