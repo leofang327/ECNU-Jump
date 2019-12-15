@@ -33,5 +33,11 @@
     {
       "name": "game"
     }
-  ]
+  ],
+  "targets": {
+    "android": {
+      "appname": "跳一跳",
+      "packagename": "com.companyname"
+    }
+  }
 }

@@ -1,0 +1,675 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,back_btn_png,finger_png,jump_mp3,piece_png,push_mp3,relive_png,restart_btn_png,setting_btn_png,setting_off_png,setting_on_png,start_btn_png,streak_png,button_down2_png,button_up2_png,checkbox_select_disabled2_png,checkbox_select_down2_png,checkbox_select_up2_png,checkbox_unselect2_png,selected2_png,border2_png,header2_png,thumb_pb2_png,track_pb2_png,radiobutton_select_disabled2_png,radiobutton_select_down2_png,radiobutton_select_up2_png,radiobutton_unselect2_png,roundthumb2_png,track_sb2_png,thumb2_png,track2_png,tracklight2_png,handle2_png,off2_png,on2_png,button_down3_png,button_up3_png,checkbox_select_disabled3_png,checkbox_select_down3_png,checkbox_unselect3_png,checkbox_select_up3_png,selected3_png,border3_png,header3_png,thumb_pb3_png,track_pb3_png,radiobutton_select_disabled3_png,radiobutton_select_down3_png,radiobutton_select_up3_png,radiobutton_unselect3_png,roundthumb3_png,track_sb3_png,thumb3_png,track3_png,tracklight3_png,handle3_png,off3_png,on3_png,setting_bg_jpg,bg_jpg,b中山北路门口_png,b丽娃食堂_png,b全家_png,b图书馆_png,b地理馆_png,b数学馆_png,b文史楼_png,b文附楼_png,b河东食堂_png,b河西食堂_png,b环球港_png,b第五宿舍_png,b篮球场_png,b计算机楼_png,b足球场_png,b金沙江路门口_png,b文科大楼_png,b理科大楼_png,环球港1_png,环球港2_png,地理馆1_png,足球场_png,地理馆2_png,地理馆3_png,地理馆4_png,第五宿舍_png,河东食堂1_png,河东食堂2_png,河西食堂_png,计算机楼_png,金沙江路门口_png,篮球场_png,理科大楼1_png,理科大楼2_png,丽娃食堂_png,全家_png,数学馆1_png,数学馆2_png,数学馆3_png,体育馆1_png,图书馆_png,文附楼1_png,文附楼2_png,文科大楼1_png,文科大楼2_png,文史楼1_png,文史楼2_png,中山北路门口_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/back_btn.png",
+			"type": "image",
+			"name": "back_btn_png"
+		},
+		{
+			"url": "assets/finger.png",
+			"type": "image",
+			"name": "finger_png"
+		},
+		{
+			"url": "assets/jump.mp3",
+			"type": "sound",
+			"name": "jump_mp3"
+		},
+		{
+			"url": "assets/piece.png",
+			"type": "image",
+			"name": "piece_png"
+		},
+		{
+			"url": "assets/push.mp3",
+			"type": "sound",
+			"name": "push_mp3"
+		},
+		{
+			"url": "assets/relive.png",
+			"type": "image",
+			"name": "relive_png"
+		},
+		{
+			"url": "assets/restart_btn.png",
+			"type": "image",
+			"name": "restart_btn_png"
+		},
+		{
+			"url": "assets/setting_btn.png",
+			"type": "image",
+			"name": "setting_btn_png"
+		},
+		{
+			"url": "assets/setting_off.png",
+			"type": "image",
+			"name": "setting_off_png"
+		},
+		{
+			"url": "assets/setting_on.png",
+			"type": "image",
+			"name": "setting_on_png"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn_png"
+		},
+		{
+			"url": "assets/streak.png",
+			"type": "image",
+			"name": "streak_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down2_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up2_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled2_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down2_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up2_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect2_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected2_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border2_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header2_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb2_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb2_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled2_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down2_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up2_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect2_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb2_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb2_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb2_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track2_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight2_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle2_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off2_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on2_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down3_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up3_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled3_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down3_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect3_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up3_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected3_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border3_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header3_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb3_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb3_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled3_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down3_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up3_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect3_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb3_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb3_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb3_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track3_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight3_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle3_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off3_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on3_png"
+		},
+		{
+			"url": "assets/setting_bg.jpg",
+			"type": "image",
+			"name": "setting_bg_jpg"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/block/中山北路门口.png",
+			"type": "image",
+			"name": "b中山北路门口_png"
+		},
+		{
+			"url": "assets/block/丽娃食堂.png",
+			"type": "image",
+			"name": "b丽娃食堂_png"
+		},
+		{
+			"url": "assets/block/全家.png",
+			"type": "image",
+			"name": "b全家_png"
+		},
+		{
+			"url": "assets/block/图书馆.png",
+			"type": "image",
+			"name": "b图书馆_png"
+		},
+		{
+			"url": "assets/block/地理馆.png",
+			"type": "image",
+			"name": "b地理馆_png"
+		},
+		{
+			"url": "assets/block/数学馆.png",
+			"type": "image",
+			"name": "b数学馆_png"
+		},
+		{
+			"url": "assets/block/文史楼.png",
+			"type": "image",
+			"name": "b文史楼_png"
+		},
+		{
+			"url": "assets/block/文附楼.png",
+			"type": "image",
+			"name": "b文附楼_png"
+		},
+		{
+			"url": "assets/block/河东食堂.png",
+			"type": "image",
+			"name": "b河东食堂_png"
+		},
+		{
+			"url": "assets/block/河西食堂.png",
+			"type": "image",
+			"name": "b河西食堂_png"
+		},
+		{
+			"url": "assets/block/环球港.png",
+			"type": "image",
+			"name": "b环球港_png"
+		},
+		{
+			"url": "assets/block/第五宿舍.png",
+			"type": "image",
+			"name": "b第五宿舍_png"
+		},
+		{
+			"url": "assets/block/篮球场.png",
+			"type": "image",
+			"name": "b篮球场_png"
+		},
+		{
+			"url": "assets/block/计算机楼.png",
+			"type": "image",
+			"name": "b计算机楼_png"
+		},
+		{
+			"url": "assets/block/足球场.png",
+			"type": "image",
+			"name": "b足球场_png"
+		},
+		{
+			"url": "assets/block/金沙江路门口.png",
+			"type": "image",
+			"name": "b金沙江路门口_png"
+		},
+		{
+			"url": "assets/block/文科大楼.png",
+			"type": "image",
+			"name": "b文科大楼_png"
+		},
+		{
+			"url": "assets/block/理科大楼.png",
+			"type": "image",
+			"name": "b理科大楼_png"
+		},
+		{
+			"url": "assets/bg/环球港1.png",
+			"type": "image",
+			"name": "环球港1_png"
+		},
+		{
+			"url": "assets/bg/环球港2.png",
+			"type": "image",
+			"name": "环球港2_png"
+		},
+		{
+			"url": "assets/bg/地理馆1.png",
+			"type": "image",
+			"name": "地理馆1_png"
+		},
+		{
+			"url": "assets/bg/足球场.png",
+			"type": "image",
+			"name": "足球场_png"
+		},
+		{
+			"url": "assets/bg/地理馆2.png",
+			"type": "image",
+			"name": "地理馆2_png"
+		},
+		{
+			"url": "assets/bg/地理馆3.png",
+			"type": "image",
+			"name": "地理馆3_png"
+		},
+		{
+			"url": "assets/bg/地理馆4.png",
+			"type": "image",
+			"name": "地理馆4_png"
+		},
+		{
+			"url": "assets/bg/第五宿舍.png",
+			"type": "image",
+			"name": "第五宿舍_png"
+		},
+		{
+			"url": "assets/bg/河东食堂1.png",
+			"type": "image",
+			"name": "河东食堂1_png"
+		},
+		{
+			"url": "assets/bg/河东食堂2.png",
+			"type": "image",
+			"name": "河东食堂2_png"
+		},
+		{
+			"url": "assets/bg/河西食堂.png",
+			"type": "image",
+			"name": "河西食堂_png"
+		},
+		{
+			"url": "assets/bg/计算机楼.png",
+			"type": "image",
+			"name": "计算机楼_png"
+		},
+		{
+			"url": "assets/bg/金沙江路门口.png",
+			"type": "image",
+			"name": "金沙江路门口_png"
+		},
+		{
+			"url": "assets/bg/篮球场.png",
+			"type": "image",
+			"name": "篮球场_png"
+		},
+		{
+			"url": "assets/bg/理科大楼1.png",
+			"type": "image",
+			"name": "理科大楼1_png"
+		},
+		{
+			"url": "assets/bg/理科大楼2.png",
+			"type": "image",
+			"name": "理科大楼2_png"
+		},
+		{
+			"url": "assets/bg/丽娃食堂.png",
+			"type": "image",
+			"name": "丽娃食堂_png"
+		},
+		{
+			"url": "assets/bg/全家.png",
+			"type": "image",
+			"name": "全家_png"
+		},
+		{
+			"url": "assets/bg/数学馆1.png",
+			"type": "image",
+			"name": "数学馆1_png"
+		},
+		{
+			"url": "assets/bg/数学馆2.png",
+			"type": "image",
+			"name": "数学馆2_png"
+		},
+		{
+			"url": "assets/bg/数学馆3.png",
+			"type": "image",
+			"name": "数学馆3_png"
+		},
+		{
+			"url": "assets/bg/体育馆1.png",
+			"type": "image",
+			"name": "体育馆1_png"
+		},
+		{
+			"url": "assets/bg/图书馆.png",
+			"type": "image",
+			"name": "图书馆_png"
+		},
+		{
+			"url": "assets/bg/文附楼1.png",
+			"type": "image",
+			"name": "文附楼1_png"
+		},
+		{
+			"url": "assets/bg/文附楼2.png",
+			"type": "image",
+			"name": "文附楼2_png"
+		},
+		{
+			"url": "assets/bg/文科大楼1.png",
+			"type": "image",
+			"name": "文科大楼1_png"
+		},
+		{
+			"url": "assets/bg/文科大楼2.png",
+			"type": "image",
+			"name": "文科大楼2_png"
+		},
+		{
+			"url": "assets/bg/文史楼1.png",
+			"type": "image",
+			"name": "文史楼1_png"
+		},
+		{
+			"url": "assets/bg/文史楼2.png",
+			"type": "image",
+			"name": "文史楼2_png"
+		},
+		{
+			"url": "assets/bg/中山北路门口.png",
+			"type": "image",
+			"name": "中山北路门口_png"
+		}
+	]
+}
