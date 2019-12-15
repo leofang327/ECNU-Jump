@@ -1,4 +1,6 @@
 class GameScene extends eui.Component implements eui.UIComponent {
+	public background: eui.Image;
+	private backgroundSourceNames: Array<Array<string> > = [];
 	// 游戏场景组
 	public blockPanel: eui.Group;
 	// 小 i
@@ -39,6 +41,10 @@ class GameScene extends eui.Component implements eui.UIComponent {
 	private rightOrigin = { "x": 505, "y": 350 };
 	// 游戏中得分
 	private score = 0;
+	
+	private next_n = 0;
+
+	private delta = 0;
 
 	// 游戏结束场景
 	public overPanel: eui.Group;
@@ -47,6 +53,9 @@ class GameScene extends eui.Component implements eui.UIComponent {
 
 	private blockWidth;
 	private blockHeight;
+
+	private lastX;
+	private lastY;
 
 
 
@@ -63,8 +72,13 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		this.reset();
 	}
 	private init() {
-		this.blockSourceNames = ["中山北路门口_png", "丽娃食堂_png", "全家_png","图书馆_png","地理馆_png",
-		"数学馆_png","文史楼_png","文附楼_png","河东食堂_png","河西食堂_png","环球港_png","第五宿舍_png","篮球场_png","计算机楼_png","足球场_png","金沙江路门口_png"];
+		this.blockSourceNames = ["b中山北路门口_png", "b丽娃食堂_png", "b全家_png","b图书馆_png","b地理馆_png","b文科大楼_png","b理科大楼_png",
+		"b数学馆_png","b文史楼_png","b文附楼_png","b河东食堂_png","b河西食堂_png","b环球港_png","b第五宿舍_png","b篮球场_png","b计算机楼_png",
+		"b足球场_png","b金沙江路门口_png"];
+		this.backgroundSourceNames = [["中山北路门口_png"],["丽娃食堂_png"],["全家_png"],["图书馆_png"],["地理馆1_png","地理馆2_png","地理馆3_png","地理馆4_png"],
+		["文科大楼1_png","文科大楼2_png"],["理科大楼1_png","理科大楼2_png"],["数学馆1_png","数学馆2_png","数学馆3_png"],["文史楼1_png","文史楼2_png"],["文附楼1_png","文附楼2_png"],
+		["河东食堂1_png","河东食堂2_png"],["河西食堂_png"],["环球港1_png","环球港2_png"],["第五宿舍_png"],["篮球场_png"],["计算机楼_png"],
+		["足球场_png"],["金沙江路门口_png"]];
 		this.blockWidth = 358;
 		this.blockHeight = 240;
 		
@@ -94,10 +108,18 @@ class GameScene extends eui.Component implements eui.UIComponent {
 	private onKeyDown() {
 		// 播放按下的音频
 		this.pushSoundChannel = this.pushVoice.play(0, 1);
+		this.lastX = this.player.x;
+		this.lastY = this.player.y;
+
 		// 变形
 		egret.Tween.get(this.player).to({
-			scaleY: 0.5
+			scaleY: 0.5,
 		}, 3000)
+
+		// egret.Tween.get(this.player).to({
+		// 	x: this.currentBlock.x - this.x,
+		// 	y: this.currentBlock.y - this.y,
+		// },(this.currentBlock.x - this.x)/300.0*1000.0)
 
 		this.isReadyJump = true;
 	}
@@ -107,6 +129,12 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		if (!this.isReadyJump) {
 			return;
 		}
+
+		egret.Tween.get(this.player).to({
+			x: this.lastX,
+			y: this.lastY,
+		}, 30)
+
 		// 声明落点坐标
 		if (!this.targetPos) {
 			this.targetPos = new egret.Point();
@@ -148,6 +176,7 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		// 清空舞台
 		this.blockPanel.removeChildren();
 		this.blockArr = [];
+		this.delta=0;
 		// 添加一个方块
 		let blockNode = this.createBlock();
 		blockNode.touchEnabled = false;
@@ -155,6 +184,8 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		blockNode.x = 200;
 		blockNode.y = this.height / 2 + blockNode.height;
 		this.currentBlock = blockNode;
+		let m = Math.floor(Math.random() * this.backgroundSourceNames[this.next_n].length);
+		this.background.source = this.backgroundSourceNames[this.next_n][m];
 
 		// 摆正小人的位置
 		this.player.y = this.currentBlock.y;
@@ -197,7 +228,9 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		}
 		// 使用随机背景图
 		let n = Math.floor(Math.random() * this.blockSourceNames.length);
+		this.next_n = n;
 		blockNode.source = this.blockSourceNames[n];
+		// console.log(blockNode.source);
 		blockNode.width = this.blockWidth;
 		blockNode.height = this.blockHeight;
 		this.blockPanel.addChild(blockNode);
@@ -212,9 +245,14 @@ class GameScene extends eui.Component implements eui.UIComponent {
 
 	private judgeResult() {
 		// 根据this.jumpDistance来判断跳跃是否成功
-		if (Math.pow(this.currentBlock.x - this.player.x, 2) + Math.pow(this.currentBlock.y - this.player.y, 2) <= 70 * 70) {
+		// console.log(this.currentBlock.x,this.currentBlock.y)
+		if (Math.pow(this.currentBlock.x - this.player.x, 2) + Math.pow(this.currentBlock.y - this.player.y, 2) <= 80 * 80) {
+			
 			// 更新积分
 			this.score++;
+			if(Math.pow(this.currentBlock.x - this.player.x, 2) + Math.pow(this.currentBlock.y - this.player.y, 2) <= 40 * 40)
+				this.score+=this.delta*2+1,this.delta++;
+			else this.delta=0;
 			this.scoreLabel.text = this.score.toString();
 			// 随机下一个方块出现的位置
 			this.direction = Math.random() > 0.5 ? 1 : -1;
@@ -233,13 +271,15 @@ class GameScene extends eui.Component implements eui.UIComponent {
 				x: playerX,
 				y: PlayerY
 			}, 1000).call(() => {
+				let m = Math.floor(Math.random() * this.backgroundSourceNames[this.next_n].length);
+				this.background.source = this.backgroundSourceNames[this.next_n][m];
 				// 开始创建下一个方块
 				this.addBlock();
 				// 让屏幕重新可点;
 				this.blockPanel.touchEnabled = true;
 			})
 			// console.log('x' + x);
-			console.log(this.currentBlock.x);
+			// console.log(this.currentBlock.x);
 		} else {
 			// 失败,弹出重新开始的panel
 			console.log('游戏失败!')

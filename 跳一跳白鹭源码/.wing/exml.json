@@ -1,17 +1,20 @@
 {
-    "160e32186b1": {
-        "path": "scene/Menu.ts",
-        "class": "Menu",
-        "parentPath": ""
-    },
-    "160e325f0a9": {
-        "path": "scene/GameScene.ts",
-        "class": "GameScene",
-        "parentPath": ""
-    },
-    "160e3287509": {
-        "path": "scene/MenuScene.ts",
-        "class": "MenuScene",
-        "parentPath": ""
-    }
+  "160e32186b1": {
+    "path": "scene/Menu.ts",
+    "class": "Menu",
+    "parentPath": ""
+  },
+  "160e325f0a9": {
+    "path": "scene/GameScene.ts",
+    "class": "GameScene",
+    "parentPath": ""
+  },
+  "160e3287509": {
+    "path": "scene/MenuScene.ts",
+    "class": "MenuScene",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": false
+  }
 }
